@@ -37,13 +37,13 @@ startActivity(intent);
 
 ## Phone a friend
 
-in the android manifest:
+1st place the following in the android_manifest.xml file (in the blank line beneath the "manifest" tag)
 
 ```html
 <uses-permission android:name="android.permission.CALL_PHONE" />
 ```
 
-In the button action space (and modify number)
+Pasta into the button action space (and modify number)
 ```java
 String phoneNumber = "6505551234"; 
 Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + phoneNumber));//area code and number, no spaces
