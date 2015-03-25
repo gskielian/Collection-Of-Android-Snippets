@@ -4,7 +4,7 @@
 - A second way is to store onto a file
 - A third way is to create your own SqlLite table (this is more involved).
 
-# Shared Preferences 
+## Shared Preferences 
 
 1)  Make the following class members of your activity (when you are doing the editing especially)
 
@@ -56,4 +56,12 @@ tv.setText(phone_number);
 
 Tada!
 
-## 
+===
+
+## Saving to a File
+
+TODO
+
+## Saving to SQLLite database
+
+TODO
