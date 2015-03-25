@@ -15,7 +15,7 @@
 
 2)  initialize sharedPref with your application's context
 
-PLace this in your onCreateMethod (after setting the content view)
+Place this in your onCreateMethod (after setting the content view)
 
 ** Note: Replace "keyval_name_here" with a name for your key-value storage.
 
