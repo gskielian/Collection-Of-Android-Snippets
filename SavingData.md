@@ -9,7 +9,7 @@
 1)  Make the following class members of your activity (when you are doing the editing especially)
 
 ```java
-    private SharedPreferences sharedPref;
+    private SharedPreferences shared_pref;
     private SharedPreferences.Editor editor;
 ```
 
@@ -20,7 +20,7 @@ Place this in your onCreateMethod (after setting the content view)
 **Note: Replace "keyval_name_here" with a name for your key-value storage.**
 
 ```java
-sharedPref = getApplicationContext().getSharedPreferences(
+shared_pref = getApplicationContext().getSharedPreferences(
                 "keyval_name_here", Context.MODE_PRIVATE);
 ```
 
@@ -43,17 +43,17 @@ Simply enter the key of the int or String, and store the value appropriately:
 
 ```java
 
-SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(
+SharedPreferences shared_pref = getApplicationContext().getSharedPreferences(
 "keyval_name_here", Context.MODE_PRIVATE);
-String defaultValue = "no phone number";
-String phone_number = sharedPref.getString("phone_number", defaultValue);
+String default_val = "no phone number";
+String phone_number = shared_pref.getString("phone_number", default_val);
 ```
 
 If you would like, you can display this via a textview:
 
 ```java
-TextView tv = (TextView) findViewById(R.id.textview0);
-tv.setText(phone_number);
+TextView text_view = (TextView) findViewById(R.id.text_view);
+text_view.setText(phone_number);
 ```
 
 Tada!
