@@ -39,6 +39,8 @@ Similarly there is a `putInt` method for editor as well.
 
 Simply enter the key of the int or String, and store the value appropriately:
 
+** Note: Replace "keyval_name_here" with the name for your key-value storage.
+
 ```java
 
 SharedPreferences sharedPref = getApplicationContext().getSharedPreferences(
