@@ -17,7 +17,7 @@
 
 Place this in your onCreateMethod (after setting the content view)
 
-** Note: Replace "keyval_name_here" with a name for your key-value storage.
+**Note: Replace "keyval_name_here" with a name for your key-value storage.**
 
 ```java
 sharedPref = getApplicationContext().getSharedPreferences(
@@ -39,7 +39,7 @@ Similarly there is a `putInt` method for editor as well.
 
 Simply enter the key of the int or String, and store the value appropriately:
 
-** Note: Replace "keyval_name_here" with the name for your key-value storage.
+**Note: Replace "keyval_name_here" with the name for your key-value storage.**
 
 ```java
 
