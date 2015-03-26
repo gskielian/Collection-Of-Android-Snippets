@@ -33,3 +33,21 @@ handler.postDelayed(new Runnable() {
   }
 }, 3000); // never reaches this point, so this number doesn't matter
 ```
+
+## Update UI Thread 
+
+Place the following as it's own method in the class (on the same level as `OnCreate()`)
+
+This will allow you to update the UI thread, use whatever view you want to update, just remember
+to initialize the view as a class member:
+
+```Java
+    private void write_to_ui(final CharSequence text) {
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                some_text_view.setText(text);
+            }
+        });
+    }
+```

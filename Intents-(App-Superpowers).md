@@ -56,8 +56,8 @@ startActivity(intent);
 
 ```java
 String emailAddress = "friend.of.yours@email.com";
-String subject = "App Send An Email"
-String message = "Sup. My app just send you an email whenever I press this button..."
+String subject = "App Send An Email";
+String message = "Sup. My app just send you an email whenever I press this button...";
 
 Intent intent = new Intent(Intent.ACTION_SEND);
 
