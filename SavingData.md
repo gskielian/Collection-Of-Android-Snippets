@@ -27,6 +27,7 @@ shared_pref = getApplicationContext().getSharedPreferences(
 3) add or edit a key-value pair
 
 ```
+  editor = shared_pref.edit();
   editor.putString("phone_number", "4445556666");
   editor.commit();
 ```
