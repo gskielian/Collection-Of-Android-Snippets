@@ -1,5 +1,7 @@
 # Action Bar Items
 
+(some cool icons to use with this [here](https://google.github.io/material-design-icons/))
+
 There is a 2.5 step process for adding action bar items:
 
 1) locate the onCreateOptionsMenu method and open the xml-file
