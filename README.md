@@ -5,11 +5,10 @@ Will be compiling the useful android snippets here -- feel free to pull request!
 ## Suggested Read Through Order:
 
 1. Buttons
-2. Intents - Superpowers for your Buttons
-3. Action Bar items
+2. Intents - snippets for Button actions
+3. Animations - snippets for Button actions
+3. Action Bar items - top bar buttons
 4. Threading (keeping up responsiveness by doing work on separate threads)
-5. Adding Cloud Functionality (still working on writing this)
-
 
 ## Example:
 The "Story Board App" contains examples for using `Buttons` and `Intents`:
