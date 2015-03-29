@@ -4,7 +4,7 @@
 
 There is a 2.5 step process for adding action bar items:
 
-1) locate the onCreateOptionsMenu method and open the xml-file
+### 1) locate the onCreateOptionsMenu method and open the xml-file
 This will be in the res/menu folder.
 
 In the example below, the name of the xml file is menu_main.xml:
@@ -17,7 +17,7 @@ In the example below, the name of the xml file is menu_main.xml:
     }
 ```
 
-2) add an item in to the menu xml file:
+### 2) add an item in to the menu xml file:
 
 the `id` will be used in step 2.5 (to adjust whether the menu items can become action bar icons, 
 change the `app:showAsAction=never` to either "ifRoom" "always" or "never"
@@ -34,7 +34,8 @@ change the `app:showAsAction=never` to either "ifRoom" "always" or "never"
         app:showAsAction="never" />
 </menu>
 ```
-2.5) have the button do something when pressed -- this is the easy part (hence the 0.5)
+
+### 2.5) have the button do something when pressed -- this is the easy part (hence the 0.5)
 
 
 
